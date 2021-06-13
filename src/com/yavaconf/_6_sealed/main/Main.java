@@ -1,16 +1,16 @@
 package com.yavaconf._6_sealed.main;
 
-sealed class Animal permits Cat {
+class Animal {
 
 }
 
-non-sealed class Cat extends Animal {
+class Cat extends Animal {
 
 }
 
-//class TrojanHorse extends Animal {
-//
-//}
+class TrojanHorse extends Animal {
+
+}
 
 public class Main {
 
@@ -18,7 +18,7 @@ public class Main {
         var cat = new Cat();
         System.out.println(cat);
 
-//        var trojanHorse = new TrojanHorse();
-//        System.out.println(trojanHorse);
+        var trojanHorse = new TrojanHorse();
+        System.out.println(trojanHorse);
     }
 }
