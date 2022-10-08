@@ -1,6 +1,6 @@
-# Samples of features added between Java 11 and Java 17
+# Samples of features added between Java 11 and Java 19
 
 ## Prerequisites
 
-JDK 17 (can be early access build)
-https://jdk.java.net/17/
+JDK 19
+https://jdk.java.net/19/

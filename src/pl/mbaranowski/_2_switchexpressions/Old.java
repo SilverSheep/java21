@@ -1,4 +1,4 @@
-package com.yavaconf._2_switchexpressions;
+package pl.mbaranowski._2_switchexpressions;
 
 public class Old {
 

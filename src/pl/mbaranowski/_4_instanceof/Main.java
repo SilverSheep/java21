@@ -1,4 +1,4 @@
-package com.yavaconf._4_instanceof;
+package pl.mbaranowski._4_instanceof;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -9,6 +9,13 @@ public class Main {
     public static void main(String[] args) {
         Object obj = blackbox();
 
+        if (obj instanceof String str) {
+            System.out.println(str.toUpperCase());
+        }
+        else if (obj instanceof BigDecimal bigDecimal && bigDecimal.compareTo(BigDecimal.ONE) == 0) {
+                var bigInteger = bigDecimal.toBigInteger();
+                System.out.println(bigInteger);
+        }
     }
 
     /**

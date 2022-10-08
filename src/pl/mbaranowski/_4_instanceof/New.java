@@ -1,4 +1,4 @@
-package com.yavaconf._4_instanceof;
+package pl.mbaranowski._4_instanceof;
 
 import java.math.BigDecimal;
 import java.util.List;

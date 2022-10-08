@@ -1,4 +1,4 @@
-package com.yavaconf._6_sealed.sealed_classes;
+package pl.mbaranowski._6_sealed.sealed_classes;
 
 sealed class Animal permits Cat {
 

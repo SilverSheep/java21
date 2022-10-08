@@ -1,11 +1,11 @@
-package com.yavaconf._1_npe;
+package pl.mbaranowski._1_npe;
 
 class A {
     B b = new B();
 }
 
 class B {
-    C c = null;
+    C c = new C();
 }
 
 class C {

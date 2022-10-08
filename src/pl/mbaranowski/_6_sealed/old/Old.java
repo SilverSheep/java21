@@ -1,4 +1,4 @@
-package com.yavaconf._6_sealed.old;
+package pl.mbaranowski._6_sealed.old;
 
 class Animal {
 

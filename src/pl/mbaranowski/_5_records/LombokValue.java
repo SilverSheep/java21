@@ -1,4 +1,4 @@
-package com.yavaconf._5_records;
+package pl.mbaranowski._5_records;
 
 import lombok.Value;
 

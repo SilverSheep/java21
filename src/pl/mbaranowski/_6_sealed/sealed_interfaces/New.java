@@ -1,4 +1,4 @@
-package com.yavaconf._6_sealed.sealed_interfaces;
+package pl.mbaranowski._6_sealed.sealed_interfaces;
 
 sealed interface Shape permits RoundShape, Triangle {
     String hello();
