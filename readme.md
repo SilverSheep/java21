@@ -4,3 +4,5 @@
 
 JDK 19
 https://jdk.java.net/19/
+
+run java with --enable-preview
