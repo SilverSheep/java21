@@ -5,7 +5,7 @@ class A {
 }
 
 class B {
-    C c = new C();
+    C c = null;
 }
 
 class C {

@@ -4,7 +4,8 @@ public class New {
 
     static void ratePresentation(Grade grade) {
         int score = switch (grade) {
-            case null, BAD, WORST_EVER -> 1;
+            case null -> 1;
+            case BAD, WORST_EVER -> 1;
             case NEUTRAL -> 3;
             case GREAT, NICE -> {
                 System.out.println("Wow!");

@@ -15,6 +15,7 @@ public class Old {
         @Override
         public void run() {
             try {
+                // WARNING! Running this code can be a pain for your hardware and it can stop responding
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
